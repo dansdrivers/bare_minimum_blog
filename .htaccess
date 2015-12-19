@@ -1,0 +1,11 @@
+AuthName "Password Protected Area"
+AuthUserFile /blog/.htpasswd
+AuthType Basic
+<Limit GET>
+require valid-user
+</Limit>
+ErrorDocument 401 index.php
+ErrorDocument 403 index.php
+ErrorDocument 404 index.php
+ErrorDocument 500 index.php
+Options -Indexes

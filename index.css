@@ -1,0 +1,21 @@
+h2 {
+  text-decoration:underline;
+}
+h3 {
+  display:inline;
+}
+p {
+  text-align:left;
+}
+body {}
+a {
+  color:grey;
+  text-decoration:none;
+}
+a.link {
+  font-size:18px;
+}
+#blog-title, #blog-one-liner, .header-links{
+	width:100%;
+	text-align: center;
+}
