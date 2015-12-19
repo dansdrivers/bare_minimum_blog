@@ -1,4 +1,4 @@
-Blog
+bare_minimum_blog
 ====
 
 This is an updated, modified version of https://github.com/klassiker/Blog.
