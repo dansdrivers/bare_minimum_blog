@@ -1,17 +1,26 @@
+<?php
+$lang_code="en";
+$blog_title="bare minimum blog";
+$blog_one_liner="barebone very minimal php blog";
+$contact="https://github.com/dansdrivers";
+$email="uremail@email.com";
+$homepage="../";
+$news_link="http://news.google.com";
+$twitter="https://www.twitter.com";
+$summary_length=300;
+?>
 <html>
   <head>
 
 	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="../index.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-	<link rel="top" title="klassikers blog" href="index.php">
+	<link rel="top" title="<?=$blog_title;?>" href="index.php">
 
-	<meta name="author" content="auser" >
-	<meta name="publisher" content="klassiker">
 	<meta name="robots" content="noindex, nofollow">
 
 	<title>
-		Blog Editor
+		<?=$blog_title;?> Editor
 	</title>
 	<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 	<script>tinymce.init({ selector:'textarea' });</script>
@@ -99,7 +108,7 @@
 	<form method="post" action="index.php">
 		<input type="submit" value="New" name="btnVal" onclick="entry.value='';"/>
 		<input type="submit" value="Save" name="btnVal"/>
-		<textarea name="entry" style="height:400px"><?PHP echo $tarea; ?></textarea>
+		<textarea name="entry" style="height:400px"><?php echo $tarea; ?></textarea>
 	</form>
 	<h2>Manage blog entries</h2>
 	

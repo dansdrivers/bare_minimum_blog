@@ -114,6 +114,7 @@ $summary_length=300;
 				}
 				
 	      }
+	      
 			echo "</div>";
 			
 	      closedir($entryDir);
